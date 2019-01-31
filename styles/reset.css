@@ -1,0 +1,81 @@
+﻿/* --------------- reset.css --------------- */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, u, i,  dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;                               /* 仂弍仆�仍�磳仄 仂����仗� 亳 �弍亳�舒亠仄 弍仂�亟�ﾑ�� */
+	vertical-align: baseline;          /* 仗�亳于仂亟亳仄 于�亠 从 仂亟仆仂亶 弍舒亰仂于仂亶 仍亳仆亳亳 */
+	background: transparent;      /* ��仂弍� 仆亠 仗�仂�从舒从亳于舒仍亳 仍亠于�亠 �仂仆�, ���舒仆仂于仍亠仆仆�亠 仗仂 �仄仂仍�舒仆亳�� */
+	font-size: 100%;                     /* �舒亰仄亠� ��亳��舒 于�亠仄 仂亟亳仆舒从仂于�亶 */
+}
+a {                                      	     /* ���仍从舒 仆亠 于 仂弍�亠仄 �仗亳�从亠 ��仂弍� 仆亠 �弍�舒��于舒�� outline 仗仂 �仄仂仍�舒仆亳�� */
+	margin:0;
+	padding:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+	outline:none;
+}
+table {						/* ����舒仆�磳仄 仂����仗� 仄亠亢亟� ���亠亶从舒仄亳 �舒弍仍亳�� */
+	border-collapse: collapse; 
+	border-spacing: 0;
+}
+td, td img {
+	vertical-align: top;			/* 于仂亰于�舒�舒亠仄 仗�亳于��仆仂亠 于亠��亳从舒仍�仆仂亠 于��舒于仆亳于舒仆亳亠 */
+} 
+input, select, button, textarea {
+	margin: 0; 				/* �弍亳�舒亠仄 仂����仗� 仗仂 �仄仂仍�舒仆亳�� 亟仍�� �仍亠仄亠仆�仂于 �仂�仄 (于 �舒��仆仂��亳 亟仍�� checkbox 亳 radio) */
+	font-size: 100%; 			/* 亟亠仍舒亠仄 �舒亰仄亠� ��亳��仂于 于亠亰亟亠 仂亟亳仆舒从仂于�仄 */
+	outline: none;
+}
+input[type="text"], input[type="password"], textarea {
+	padding: 0; 				/* �弍亳�舒亠仄 于仆���亠仆仆亳亠 仂����仗� 亟仍�� �亠从��仂于�� 仗仂仍亠亶 */
+}
+input[type="checkbox"] { 		/* 于亠��亳从舒仍�仆仂亠 于��舒于仆亳于舒仆亳亠 �亠从弍仂从�仂于 亳 �舒亟亳仂弍舒�仂仆仂于 仂�仆仂�亳�亠仍�仆仂 仄亠�仂从 */
+	vertical-align: bottom;
+}
+input[type="radio"] {
+	vertical-align: text-bottom;
+}
+sub {
+	vertical-align: sub;
+	font-size: smaller;
+}
+sup {
+	vertical-align: super;
+	font-size: smaller;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+nav ul {
+	 list-style:none;
+}
+/* --------------- /reset.css --------------- */
+
+/* --------------- 弍舒亰仂于�亠 仆舒���仂亶从亳 ---------*/
+html {
+	min-height:100%; /* 于�亠亞亟舒 仗仂从舒亰�于舒亠仄 于亠��亳从舒仍�仆��� 仗仂仍仂�� 仗�仂从���从亳  */
+}
+body {
+	color: #000;
+	text-align: left;
+	font-size: 1em; /* 亳�仗仂仍�亰�亠仄 弍亠亰仂仗舒�仆�亠 ��亳��仂于�亠 CSS ��亠从亳 */
+	min-height:100%;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+}
+img{
+
+	max-width:100%;
+}
+.clr{
+	clear:both;
+}
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+/* --------------- /弍舒亰仂于�亠 仆舒���仂亶从亳 ---------*/

@@ -1,0 +1,502 @@
+body{
+        margin: 0;
+}
+#load{
+	background: rgba(256, 256, 256, 0.95);
+	position: fixed;
+	z-index: 100500;
+}
+.spinner{
+	width: 48px;
+	height: 48px;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+body{
+	font-family: Arial, Helvetica;
+	color: #fff;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+button{
+	background: transparent;
+	padding: 0;
+	border: none;
+}
+button[disabled]{
+	opacity: 0.5;
+}
+input, select{
+	border: none;
+}
+
+::-webkit-inner-spin-button,
+::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+::-moz-inner-spin-button,
+::-moz-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+::-ms-inner-spin-button,
+::-ms-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+::-o-inner-spin-button,
+::-o-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #fff;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #fff;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #fff;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #fff;
+}
+.central-square{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.central-square:before, .central-square:after{
+	content:"";
+	display: table;
+}
+.central-square:after{
+	clear:both;
+}
+
+/*header*/
+header .central-square, footer .central-square{
+    position: relative;
+	height: 100%;
+	*zoom: 1;
+}
+header{
+	width: 100%;
+	//height: 118px;
+	position: fixed;
+	background: #35499c;
+	position: fixed;
+	z-index: 2;
+}
+header .central-square div{float: right;}
+#logo{
+	float: left;
+	width: 140px;
+	height: 110px;
+	background: url(../image/logo.png) no-repeat;
+	background-size: contain;
+}
+#tel{
+	font-size: 25px;
+}
+#sale{
+	background: #ff9000;
+	width: 138px;
+	height: 138px;
+	font-size: 23px;
+	text-align: center;
+	padding: 5px;
+	box-sizing: border-box;
+}
+#sale span{
+	font-size: 57px;
+}
+/* end header*/
+
+/* content */
+.byi{
+	position: absolute; 
+	bottom: 0;
+}
+.block{
+	width: 100%;
+	min-height: 520px;
+	max-height: 900px;
+	position: relative;
+	overflow:hidden;
+}
+.block h1{
+	text-align: center;
+}
+
+.one{
+	background: url(../image/docking-stairs.jpg) center center;
+	background-size: cover;
+}
+.one h1{
+	font-size: 72px;
+	text-shadow: 5px 5px 10px black;
+	margin-top: 15px;
+}
+.anchors-area{
+	width: 574px;
+	height: 58px;
+	position: absolute;
+	display: table;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	bottom: 94px;
+} 
+.anchor{
+	padding: 12px;
+	border-radius: 30px;
+	font-size: 28px;
+	text-align: center;
+}
+.blue-button{
+	background: #425ac0;
+	border-color: #425ac0;
+	float: left;
+}
+.orange-button{
+	background: #ff9000;
+	border-color: #ff9000;
+	float: right;
+}
+
+.two{
+	background: url(../image/wing-clouds-stratus.jpg) center center;
+	background-size: cover;
+}
+.two h1{
+	font-size: 42px;
+}
+.triggers-area{
+	height: 240px;
+	margin-top: 170px;
+	display: flex;
+	justify-content: space-around;
+}
+.trigger{
+	width: 0;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.trigger img{
+	width: 100px;
+	height: 100px;
+}
+.trigger h2{
+	font-size: 24px;
+}
+.trigger span{
+	font-size: 18px;
+	overflow: hidden;
+}
+
+.three{
+	color: #304187;
+	background: url(../image/world-map.jpg);
+	background-size: cover;
+}
+.three h1{
+	font-size: 55px;
+	text-shadow: 5px 5px 10px black;
+}
+.three h2{
+	font-size: 36px; 
+	font-weight: bold;
+}
+.ch{
+	margin: 1000px auto auto auto;
+	transition: 5s ease;
+}
+
+.four{
+	background: linear-gradient(#aac1fb, #728bcc);
+	background: -webkit-linear-gradient(#aac1fb, #728bcc);
+	background: -o-linear-gradient(#aac1fb, #728bcc);
+	background: -moz-linear-gradient(#aac1fb, #728bcc);
+}
+.four h1{
+	font-size: 55px;
+}
+.coments-area{
+	width: 904px;
+	height: 440px;
+	color: #35499c;
+	margin: 50px auto 0 auto;
+}
+.coment{
+	float: right;
+	width: 438px;
+	margin-bottom: 25px;
+}
+.coment:nth-child(odd){
+	float: left;
+}
+.bio{
+	float: left;
+	width: 146px;
+}
+.bio img{
+	//width: 146px;
+	width: 0;
+	//height: 146px;
+	height:0;
+	border-radius: 73px;
+	display: table;
+	margin: 0 auto;
+}
+.bio div{
+	font-size: 23px;
+	text-align: center;
+}
+.text{
+	background: url(../image/coment-bg.png) no-repeat;
+	background-size: 100% 100%;
+	font-size: 13px;
+	color: #fff;
+	float: right;
+	//width: 286px;
+	width: 0;
+	height: 169px;
+	padding: 12px;
+	padding-left: 58px;
+	box-sizing: border-box;
+}
+
+.five{
+	background: url(../image/white`n`blue.jpg) center center;
+	background-size: cover;
+}
+.five h1, .six h1{
+	text-align: left;
+	font-size: 36px;
+	margin-top: 10px;
+}
+.five .triggers-area{
+	color: #35499c;
+	margin-top: 150px;
+}
+
+.six{
+	background: url(../image/flight-plane-marines-blue.jpg) center center;
+	background-size: cover;
+}
+.away{
+	margin-top: 85px; 
+}
+.form-block{
+	width: 394px;
+	min-height: 308px;/*rubber*/
+	border: 4px solid #fff;
+	float: left;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+#fly{
+	
+}
+.inside{
+	height: 224px;
+	width: 1500px;
+}
+.step{
+	float: left;
+	height: 100%;
+	padding: 14px 7px;
+	width: 385px;
+	box-sizing: border-box;
+}
+.step:first-child{
+	padding-left: 14px;
+}
+.step:last-child{
+	padding-right: 14px;
+}
+.form-block input, select, option{
+	background: url(../image/field.png) no-repeat;
+	background-size: contain;
+	background-position: bottom;
+	width: 354px;
+	height: 34px;
+	font-size: 26px;
+	padding: 5px;
+	color: #fff;
+}
+
+select{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: url(../image/down-arrow.png) no-repeat;
+	background-size: 20px 20px;
+	background-position: 100%;
+	border: 2px solid #fff;
+	width: 364px;
+	height: 40px;
+	
+}
+option{
+	background: #728bcc;
+}
+#step-3 label{
+	font-size: 14px;
+	width: 110px;
+	padding-left: 5px;
+	display:block;
+	float: left;
+}
+
+/* radio buttons */
+input[type="checkbox"], input[type="radio"]{
+    display:none;
+}
+input[type="checkbox"] + label i, input[type="radio"] + label i{
+    display:inline-block;
+    width:15px;
+    height:15px;
+    background:url(../image/checkbox.png) left top no-repeat;
+	margin-right: 5px;
+}
+input[type="checkbox"] + label i{
+	background:url(../image/checkbox.png) left top no-repeat;
+	background-size: cover;
+}
+input[type="radio"] + label i{
+	background:url(../image/radio.png) left top no-repeat;
+	background-size: cover;
+}
+
+input[type="checkbox"]:checked + label i{
+    background:url(../image/checkbox-checked.png) left top no-repeat;
+	background-size: cover;
+}
+input[type="radio"]:checked + label i{
+    background:url(../image/radio-checked.png) left top no-repeat;
+	background-size: cover;
+}
+/* end radio buttons */
+
+.form-block span{
+	color: #ff9000;
+	font-weight: italic;
+}
+.pads-area{
+	height: 68px;
+}
+.pads-area, .digits{
+	background: rgba(256, 256, 256, 0.75);
+	color: #ff9000;
+	padding: 6px;
+}
+.pads-area input{
+	background: #ff9000;
+	border-radius: 40px;
+	font-size: 30px;
+	font-weight: bold;
+	width: 184px;
+	padding: 13px;
+	height: auto;
+	color: #fff;
+}
+.kid{
+	float: right;
+}
+.kid button{
+	height: 38px;
+}
+.kid img{
+	width: 56px;
+}
+.kid button:first-child{
+	transform: rotate(180deg);
+}
+.kid div{
+	text-align: right;
+	font-weight: italic;
+}
+.price-block{
+	width: 268px;
+	border: 4px solid #fff;
+	text-align: right;
+	float: right;
+	margin-top: 216px;
+	box-sizing: border-box;
+}
+.price-block div{
+	padding: 12px;
+}
+.words{
+	font-size: 30px;
+}
+.digits{
+    width: 248px;
+    text-align: right;
+}
+
+/* end content */
+
+/*footer*/
+footer{
+	position: relative;
+	min-height: 150px;
+	background: #35499c;
+}
+.copy{
+	width: 300px;
+    margin-top: 20px;
+	background: 
+}
+.copy:before{
+	content:"2017";
+}
+.social-bar{
+    float: right;
+    margin-top: 40px;
+	margin-right: 20px;
+}
+.icon{
+	float: left;
+	padding: 7px;
+}
+.icon a{
+	text-decoration: none;
+	font-weight: bold;
+}
+.icon>div[class$=-logo]{
+	height: 60px;
+	width: 60px;
+	position: relative;
+	margin: auto;
+	right: 0;
+	left: 0;
+}
+.facebook-logo{background:url(../image/facebook.png);}
+.twitter-logo{background:url(../image/twitter.png) no-repeat;}
+.google-logo{background:url(../image/google.png) no-repeat;}
+.social-bar .what{
+	text-align: center;
+}
+
+.facebook-logo:hover{background:url(../image/facebook-hover.png);}
+.twitter-logo:hover{background:url(../image/twitter-hover.png);}
+.google-logo:hover{background:url(../image/google-hover.png);}

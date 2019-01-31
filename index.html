@@ -1,0 +1,324 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width"/>
+        <title>AirCompany</title>
+		<link rel="stylesheet" href="styles/reset.css"/>
+		<link rel="stylesheet" href="styles/main-style.css"/>
+		<link rel="stylesheet" href="styles/adaptive.css"/>
+		<link rel="stylesheet" href="styles/effects.css"/>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="script/effects.js"></script>
+		<!--[if IE]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+    </head>
+    <body>
+		<div id="load">
+			<img src="image/spinner.gif" class="spinner"></img>
+		</div>
+		<script>
+			$('#load').css({
+				"height": $(window).height() + "px",
+				"width": $(window).width() + "px"
+			});
+		</script>
+        <header>
+			<div class="central-square" style="padding: 0;">
+				<div class="pocket" style="padding: 10px; float: left; width: calc(100% - 158px); height: 100%;">
+					<div id="logo"></div>
+					<div id="tel">
+						+38(062)344 1257<br>
+						+38(045)380 6660
+					</div>
+				</div>
+				<div id="sale">
+					Отримати знижку
+					<span>50%</span>
+				</div>
+				<div style="clear: left"></div>
+			</div>
+		</header>
+		
+		<div class="ghost"></div>
+		
+		<div class="one block">
+			<div class="central-square">
+				<h1>Замовте авіапереліт вже сьогодні</h1>
+				<div class="anchors-area">
+					<!-- use javascript for jump -->
+					<a href="#next" class="anchor blue-button">Дізнатися більше</a>
+					<a href="#end" class="anchor orange-button">Замовити квиток</a>
+				</div>
+			</div>
+			<div id="next" class="byi"></div>
+		</div>
+		
+		<div class="two block">
+			<div class="central-square">
+				<h1>Наші авіалінії - це</h1>
+				<div class="triggers-area">
+					<div class="trigger" style="width: 0">
+						<img src="image/chair.png"/>
+						<h2 style="display: none;">Безпека</h2>
+						<span style="display: none;">
+						У нас на літаках є все необхідне 
+						обладнання, щоб зробити ваш 
+						політ безпечним та комфортним
+						</span>
+					</div>
+					<div class="trigger" style="width: 0">
+						<img src="image/clock.png"/>
+						<h2 style="display: none;">Організованість</h2>
+						<span style="display: none;">
+						Завжди вчасне прибуття та відправка 
+						аеробусів
+						</span>
+					</div>
+					<div class="trigger" style="width: 0">
+						<img src="image/stewardess.png"/>
+						<h2 style="display: none;">Досконалий сервіс</h2>
+						<span style="display: none;">
+						Завжди привітний персонал, вигідні 
+						умови та зручна подорож
+						</span>
+					</div>
+					<div class="trigger" style="width: 0">
+						<img src="image/money.png"/>
+						<h2 style="display: none;">Вигода</h2>
+						<span style="display: none;">
+						Невисокі ціни, вигідні пропозиції, 
+						система знижок
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="three block">
+			<div class="central-square">
+				<h1>Ми літаємо у більш ніж 30 країн світу</h1>
+				<div class="ch central-square" style="width: 282px; height: 364px; font-size: 30px; font-weight: bold;">
+					<h2>Серед них:</h2>
+					<ul style="list-style-position: inside;">
+						<li>Україна</li>
+						<li>Польша</li>
+						<li>Туреччина</li>
+						<li>США</li>
+						<li>Канада</li>
+						<li>Бразилія</li>
+						<li>Аргентина</li>
+					</ul>
+					<span>та багато інших</span>
+				</div>
+			</div>
+		</div>
+		
+		<div class="four block">
+			<div class="central-square">
+				<h1>Відгуки клієнтів</h1>
+				<div class="coments-area">
+					<div class="coment">
+						<div class="bio">
+							<img src="image/team1.png"  style="width: 0;"/>
+							<div class="im" style="opacity: 0;">Олена</div>
+						</div>
+						<div class="text" style="width: 0;">
+							Для мене цей сервіс відкрив сучасний
+							метод купівлі квитків все дуже зручно
+							і ,головне, не доводилось стояти у 
+							довжелезній черзі. Я ним дуже задоволена.
+						</div>
+					</div>
+					<div class="coment">
+						<div class="bio">
+							<img src="image/team2.png" style="width: 0;"/>
+							<div class="im" style="opacity: 0;">Олександр</div>
+						</div>
+						<div class="text" style="width: 0;">
+							Зручний спосіб замовляти квитки не виходячи
+							з дому. Система працює без збоїв і мені не
+							доводилось стикатися з труднощами. Моя оцінка
+							10 з 10.
+						</div>
+					</div>
+					<div class="coment">
+						<div class="bio">
+							<img src="image/team3.png" style="width: 0;"/>
+							<div class="im" style="opacity: 0;">Анастасія</div>
+						</div>
+						<div class="text" style="width: 0;">
+							Чудовий сайт. Мені дуже сподобався і ним 
+							дійсно зручно користуватись. Сподіваюсь на 
+							ваші подальші злети і процвітання.
+						</div>
+					</div>
+					<div class="coment">
+						<div class="bio">
+							<img src="image/team4.png" style="width: 0;"/>
+							<div class="im" style="opacity: 0;">Олег</div>
+						</div>
+						<div class="text" style="width: 0;">
+							Одного разу летіли компанією.
+							Потрібно було терміново замовляти квитки.
+							Цей сервіс нас дуже виручив, за що ми дуже вдячні.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="five block">
+			<div class="central-square">
+				<h1>Процес отримання квитка</h1>
+				<div class="triggers-area">
+					<div class="trigger" style="width: 0">
+						<img src="image/car.png"/><br>
+						<span style="display: none;">
+						Після заповнення форми ви 
+						проплачуєте переліт через 
+						систему онлайн платежів
+						</span>
+					</div>
+					<div class="trigger" style="width: 0">
+						<img src="image/arrow.png"/>
+					</div>
+					<div class="trigger" style="width: 0">
+						<img src="image/printer.png"/><br>
+						<span style="display: none;">
+						Ви друкуєте квиток на принтері. 
+						Якщо не маєте такої можливості, 
+						то можете зробити це у нашій касі
+						</span>
+					</div>
+					<div class="trigger" style="width: 0">
+						<img src="image/arrow.png"/>
+					</div>
+					<div class="trigger" style="width: 0">
+						<img src="image/airport.png"/><br>
+						<span style="display: none;">
+						Тепере ви готові іти з квитком в 
+						аеропорт.Він дісний лише при 
+						наявності усіх документів
+						</span>
+					</div>
+				</div>
+			</div>
+			<div id="end" class="byi"></div>
+		</div>
+		
+		<div id="end" class="six block">
+			<div class="central-square">
+				<h1>Форма для замовлення квитка</h1>
+				<div class="away">
+					<div class="form-block">
+						<form action="script/push_orders.php" method="post" id="fly">
+							<div class="inside">
+								<div id="step-1" class="step">
+									<input type="text" name="fname" placeholder="Як до вас звертатись*"/>
+									<span>заповніть це поле</span>
+									<input id="phone" name="ftel" placeholder="Номер телефону*"/>
+									<span>заповніть це поле</span>
+								</div>
+								<div id="step-2" class="step">
+									<select id="from" name="ffrom">
+										<option value="">Пункт відправлення*</option>
+										<option id="from-1" value="1">Київ</option>
+										<option id="from-2" value="2">Варшава</option>
+										<option id="from-3" value="3">Стамбул</option>
+										<option id="from-4" value="4">Нью-Йорк</option>
+									</select>
+									<span>заповніть це поле</span>
+									<select id="to" name="fto">
+										<option value="">Пункт прибуття*</option>
+										<option id="to-1" value="1">Київ</option>
+										<option id="to-2" value="2">Варшава</option>
+										<option id="to-3" value="3">Стамбул</option>
+										<option id="to-4" value="4">Нью-Йорк</option>
+									</select>
+									<span>заповніть це поле</span>
+									<input type="date" name="fdate" placeholder="Дата відправлення*"/>
+									<span>заповніть це поле</span>
+								</div>	
+								<div id="step-3" class="step">
+									<input type="radio" id="t-option" name="selector" value="Пасажирське"/>
+									<label for="t-option"><i></i><div style="float: right">Пасажирське<br> перевезення</div></label>
+									
+									<input type="radio" id="s-option" name="selector" value="Вантажне"/>
+									<label for="s-option"><i></i><div style="float: right">Вантажне<br> перевезення</div></label>
+									
+									<div class="dropdown pas">
+										<select id="klas" name="class">
+											<option value="0.1">Клас</optionvalue="0.1">
+											<option value="0.3">Комфорт клас</option>
+											<option value="0.2">Бізнес клас</option>
+											<option value="0.1">Економ клас</option>
+										</select>
+										<span>заповніть це поле</span>
+										<input name="fnum" id="num" type="number" max="20" placeholder="К-сть пасажирів"/>
+										<span>заповніть це поле</span>
+									</div>
+									<div class="dropdown cargo">
+										<input name="fweight" id="pound" type="number" min="0" max="60" placeholder="Вага вантажу(кг)"/>
+										<span>заповніть це поле</span>
+									</div>
+								</div>
+							</div>
+						</form>
+						<div class="pads-area">
+							<!-- still invisible -->
+							<input type="submit" value="Замовити" form="fly"/>
+							<div class="kid">
+								<button disabled class="left"><img src="image/pad-right.png"></button>
+								<button class="right"><img src="image/pad-right.png"></button>
+								<div>
+									Крок <span></span> з 3
+								</div>
+							</div>
+							<div style="clear: both;"></div>
+						</div>
+					</div>
+					<div class="price-block">
+						<div class="words">
+							Ціна перельоту:
+						</div>
+						<input form="fly" class="digits" name="price" value=" грн." readonly/>
+                    </div>
+					<div style="clear: both;"></div>
+				</div>
+			</div>
+		</div>
+		
+		<footer>
+			<div class="central-square">
+				<div class="social-bar">
+					<div class="icon">
+						<div class="facebook-logo"><a href="facebook.com"> </a></div>
+					</div>
+					<div class="icon">
+						<div class="twitter-logo"><a href="twitter.com"> </a></div>
+					</div>
+					<div class="icon">
+						<div class="google-logo"><a href="plus.google.com"> </a></div>
+					</div>
+				</div>
+				<div class="copy">
+					Пухальський Богдан
+				</div>
+			</div>   
+		</footer>
+		
+		<script type="text/javascript" src="script/adaptive.js"></script>
+		<script type="text/javascript" src="script/pageJump.js"></script>
+		<script type="text/javascript" src="script/plugins-scroll.js"></script>
+		
+		<script src="script/jquery.inputmask.bundle.js"></script>
+		<script type="text/javascript">
+			$('#phone').inputmask("+38 (999) 999-9999");
+		</script>
+		<script type="text/javascript" src="script/sendForm.js"></script>
+		
+		
+	</body>
+</html>
